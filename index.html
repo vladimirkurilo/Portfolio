@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Primary Meta Tags -->
+	<title>Portfolio</title>
+	<meta name="title" content="Portfolio">
+	<meta name="description" content="Привет, меня зовут Владимир. На этом сайте ты можешь ознакомиться с моими работами и узнать больше обо мне">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vladimirkurilo.com/">
+	<meta property="og:title" content="Portfolio">
+	<meta property="og:description" content="Привет, меня зовут Владимир. На этом сайте ты можешь ознакомиться с моими работами и узнать больше обо мне">
+	<meta property="og:image" content="https://www.vladimirkurilo.com/img/man1-min.jpg">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://www.vladimirkurilo.com/">
+	<meta property="twitter:title" content="Portfolio">
+	<meta property="twitter:description" content="Привет, меня зовут Владимир. На этом сайте ты можешь ознакомиться с моими работами и узнать больше обо мне">
+	<meta property="twitter:image" content="https://www.vladimirkurilo.com/img/man1-min.jpg">
+
+	<!-- Favicon  -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon//apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<img src="img/man1-min.jpg" alt="meta-img" class="meta-img">
+	<nav class="navbar navbar_active">
+		<div class="container">
+			<div class="screed">
+				<a class="navbar__logo" href="#">KURILO</a>
+				<ul class="menu" id="menu">
+					<li class="menu__item"><a href="#home" class="menu__link">HOME</a></li>
+					<li class="menu__item"><a href="#about" class="menu__link">ABOUT</a></li>
+					<li class="menu__item"><a href="#skills" class="menu__link">SKILLS</a></li>
+					<li class="menu__item"><a href="#projects" class="menu__link">PROJECTS</a></li>
+					<li class="menu__item"><a href="#price" class="menu__link">PRICE</a></li>
+					<!-- <li class="menu__item"><a href="#" class="menu__link">BLOG</a></li> -->
+					<li class="menu__item"><a href="#contacts" class="menu__link">CONTACTS</a></li>
+				</ul>
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<header id="home">
+		<div class="container">
+			<div class="greeting">
+				<div class="text">
+					<div class="text__1">Здравствуй, меня зовут Владимир.</div>
+					<div class="text__2" id="text__2"></div>
+				</div>
+				<div class="wrapper" id="links">
+					<a href="#projects" class="wave-btn">
+						<span class="wave-btn__text">Портфолио</span>
+						<span class="wave-btn__waves"></span>
+					</a>
+					<a href="#about" class="wave-btn">
+						<span class="wave-btn__text">Про меня</span>
+						<span class="wave-btn__waves"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="about" id="about">
+		<div class="container" id="container">
+			<div class="about__wrapper">
+				<div class="about__photo animate__animated animate__fadeInUp wow">
+					<picture>
+						<source media="(max-width: 576px)" srcset="img/man2-mini.jpg">
+						<source media="(min-width: 577px)" srcset="img/man2.jpg">
+						<img src="img/man2.jpg" alt="photo">
+					</picture>
+				</div>
+				<div class="about__descr animate__animated animate__fadeInUp wow">
+					<h2 class="title title_fz16 about__title">Про меня</h2>
+					<div class="title title_fz36 about__subtitle" id="name">Меня зовут Курило Владимир</div>
+					<div class="divider"></div>
+					<p class="about__text">6 лет назад я узнал о такой сфере как web-разработка и развил свои навыки в ней до хороших результатов. Это удалось совершить путём многочисленной практики и усердной работы. На данный момент я могу сделать сайт любого уровня сложности не теряя главных правил современной и ликвидной web-разработки. В итоге работы со мной вы получаете быстрый, адаптивный и валидный сайт поддерживающийся всеми современными поисковыми системами.</p>
+				</div>
+				<div class="about__skills animate__animated animate__fadeInUp wow">
+					<div class="about__skills-item">
+						<div class="about__skills-circle">
+							<img src="img/web_development.svg" alt="web-dev" id="web_development">
+						</div>
+						<div>
+							<div class="title title_fz14">
+								Web-разработка
+							</div>
+							<div class="about__skills-text">
+								 Смогу сверстать ваш сайт качественно и адаптивно используя такие технологии для разработки как: html, css, jquery и javascript. 
+							</div>
+						</div>
+					</div>
+					<div class="about__skills-item animate__animated animate__fadeInUp wow">
+						<div class="about__skills-circle">
+							<img src="img/mobile_dev.svg" alt="mobile-dev" id="mobile-dev">
+						</div>
+						<div>
+							<div class="title title_fz14">
+								Адаптация
+							</div>
+							<div class="about__skills-text">
+								Адаптация сайта под различные устройства сейчас необходима, так как большинство заходят на сайты через мобильные устройства. Я смогу адаптировать ваш сайт под мобильные и планшетные устройства, используя такие css технологии как Css Grid Layout и Flexbox или используя систему сеток Botstrap.
+							</div>
+						</div>
+					</div>
+					<div class="about__skills-item animate__animated animate__fadeInUp wow">
+						<div class="about__skills-circle">
+							<img src="img/design.svg" alt="design" id="design">
+						</div>
+						<div>
+							<div class="title title_fz14">
+								Оптимизация
+							</div>
+							<div class="about__skills-text">
+								Оптимизация сайта не менее важна, чтоб он быстро загружался на различных девайсах. Я пытаюсь экономить каждый килобайт при верстке сайтов, путём сжатия изображений и больших файлов.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="skills" id="skills">
+		<div class="container">
+			<h2 class="skills__title title_fz48 animate__animated animate__fadeInUp wow">Мои навыки</h2>
+
+			<div class="skills__ratings">
+				<div class="skills__ratings-item animate__animated animate__fadeInUp wow">
+					<div class="title title_fz14 skills__ratings-title">Создание сайтов</div>
+					<div class="skills__ratings-counter">100%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+				<div class="skills__ratings-item animate__animated animate__fadeInUp wow">
+					<div class="title title_fz14 skills__ratings-title">Photoshop</div>
+					<div class="skills__ratings-counter">85%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+				<div class="skills__ratings-item animate__animated animate__fadeInUp wow">
+					<div class="title title_fz14 skills__ratings-title">SEO</div>
+					<div class="skills__ratings-counter">70%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+				<div class="skills__ratings-item animate__animated animate__fadeInUp wow">
+					<div class="title title_fz14 skills__ratings-title">Креативность</div>
+					<div class="skills__ratings-counter">95%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+				<div class="skills__ratings-item animate__animated animate__fadeInUp wow">
+					<div class="title title_fz14 skills__ratings-title">Создание дизайна</div>
+					<div class="skills__ratings-counter">70%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+				<div class="skills__ratings-item animate__animated animate__fadeInUp wow">
+					<div class="title title_fz14 skills__ratings-title">Soft skills</div>
+					<div class="skills__ratings-counter">95%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="skills__subtitle title_fz36 animate__animated animate__fadeInUp wow">Что я использую в работе</div>
+			<div class="divider"></div>
+
+			<div class="skills__items">
+				<div class="skills__item animate__animated animate__fadeInLeft wow">
+					<div class="skills__item-img">
+						<img src="img/skills/html5.svg" alt="html5" id="html5">
+					</div>
+					<h3 class="title title_fz14">HTML5</h3>
+					<p>Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</p>
+				</div>
+				<div class="skills__item animate__animated animate__fadeInLeft wow">
+					<div class="skills__item-img">
+						<img src="img/skills/css3.svg" alt="css3" id="css3">
+					</div>
+					<h3 class="title title_fz14">CSS3</h3>
+					<p>Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</p>
+				</div>
+				<div class="skills__item animate__animated animate__fadeInRight wow">
+					<div class="skills__item-img">
+						<img src="img/skills/js.svg" alt="java script">
+					</div>
+					<h3 class="title title_fz14">Java Script</h3>
+					<p>Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</p>
+				</div>
+				<div class="skills__item animate__animated animate__fadeInRight wow">
+					<div class="skills__item-img">
+						<img src="img/skills/jquery.svg" alt="Jquery" id="Jquery">
+					</div>
+					<h3 class="title title_fz14">Jquery</h3>
+					<p>Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</p>
+				</div>
+				<div class="skills__item animate__animated animate__fadeInLeft wow">
+					<div class="skills__item-img">
+						<img src="img/skills/react.svg" alt="React">
+					</div>
+					<h3 class="title title_fz14">React</h3>
+					<p>Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</p>
+				</div>
+				<div class="skills__item animate__animated animate__fadeInLeft wow">
+					<div class="skills__item-img">
+						<img src="img/skills/node.js.svg" alt="Node.js">
+					</div>
+					<h3 class="title title_fz14">Node.js</h3>
+					<p>Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p>
+				</div>
+				<div class="skills__item animate__animated animate__fadeInRight wow">
+					<div class="skills__item-img">
+						<img src="img/skills/gulp.svg" alt="Gulp" id="gulp">
+					</div>
+					<h3 class="title title_fz14">Gulp</h3>
+					<p>Gulp — это таск-менеджер для автоматического выполнения часто используемых задач, написанный на языке программирования JavaScript.</p>
+				</div>
+				<div class="skills__item animate__animated animate__fadeInRight wow">
+					<div class="skills__item-img">
+						<img src="img/skills/bootstrap.svg" alt="bootstrap" id="bootstrap">
+					</div>
+					<h3 class="title title_fz14">Bootstrap</h3>
+					<p>Cвободный набор инструментов для создания сайтов и веб-приложений. HTML и CSS-шаблоны оформления для веб-форм, меток, блоков навигации и прочих компонентов веб-интерфейса.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects" id="projects">
+		<div class="container">
+			<h2 class="projects__title title_fz16 title__section-title">Портфолио</h2>
+			<div class="projects__subtitle title_fz36 title__section-subtitle">Мои работы</div>
+			<div class="divider"></div>
+
+			<div class="tabs">
+  
+				<ul class="projects__tabs animate__animated animate__flipInX wow">
+				  <li class="projects__tab project__tab_active">Все</li>
+				  <li class="projects__tab">Лэндинги</li>
+				  <li class="projects__tab">Интернет-магазины</li>
+				  <li class="projects__tab">Корпоративные сайты</li>
+				  <!-- <li class="projects__tab">Порталы</li>
+				  <li class="projects__tab">Гос. заказы</li> -->
+				</ul>
+				
+				<div class="projects__content projects__content_active">
+					<div class="projects__wrapper">
+						<a href="https://vladimirkurilo.github.io/Uber/" class="projects__item-1 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт компании UBER PARTNERS - официальный партнёр UBER в Москве.</div>
+						</a>
+						<a href="https://vladimirkurilo.github.io/RunSmart/" class="projects__item-2 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт компании RunSmart занимающейся созданием универсальных фитнес трекеров и браслетов.</div>
+						</a>
+						<a href="https://vladimirkurilo.github.io/Prengi/" class="projects__item-3 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт-визитка компании Prengi оказывающей помощь в комфортном и современном управлении своим бизнесом.</div>
+						</a>
+						<a href="https://vladimirkurilo.github.io/Glot/" class="projects__item-5 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт компании Global Opt предоставляющей услуги логистики полного цикла из Китая в Россию.</div>
+						</a>
+						<a href="https://belwooddoors.com" class="projects__item-6 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">ОФИЦИАЛЬНЫЙ САЙТ КОМПАНИИ «BELWOODDOORS» ПРОИЗВОДСТВО МЕЖКОМНАТНЫХ ДВЕРЕЙ.</div>
+						</a>
+						<a href="https://onipress.com/" class="projects__item-7 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Интернет-магазин американского издательства коммиксов Oni Press.</div>
+						</a>
+						<a href="https://goodidea.kiev.ua/ru/main/" class="projects__item-8 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Корпоративный сайт студии дизайна интерьера "Good idea".</div>
+						</a>
+						<a href="https://www.grove.co/" class="projects__item-9 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Grove: все, что вам нужно для поддержания дома.</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="projects__content">
+					<div class="projects__wrapper">
+						<a href="https://vladimirkurilo.github.io/Uber/" class="projects__item-1 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт компании UBER PARTNERS - официальный партнёр UBER в Москве.</div>
+						</a>
+						<a href="https://vladimirkurilo.github.io/RunSmart/" class="projects__item-2 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт компании RunSmart занимающейся созданием универсальных фитнес трекеров и браслетов.</div>
+						</a>
+						<a href="https://vladimirkurilo.github.io/Prengi/" class="projects__item-3 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт-визитка компании Prengi оказывающей помощь в комфортном и современном управлении своим бизнесом.</div>
+						</a>
+						<a href="https://vladimirkurilo.github.io/Binary/" class="projects__item-4 horizontal animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Binary - art студия разрабатывающая логотипы, современный дизайн для сайтов и проложений.</div>
+						</a>
+						<a href="https://vladimirkurilo.github.io/Glot/" class="projects__item-5 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Сайт компании Global Opt предоставляющей услуги логистики полного цикла из Китая в Россию.</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="projects__content">
+					<div class="projects__wrapper">
+						<a href="https://belwooddoors.com" class="projects__item-6 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">ОФИЦИАЛЬНЫЙ САЙТ КОМПАНИИ «BELWOODDOORS» ПРОИЗВОДСТВО МЕЖКОМНАТНЫХ ДВЕРЕЙ.</div>
+						</a>
+						<a href="https://onipress.com/" class="projects__item-7 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Интернет-магазин американского издательства коммиксов Oni Press.</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="projects__content">
+					<div class="projects__wrapper">
+						<a href="https://goodidea.kiev.ua/ru/main/" class="projects__item-8 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Корпоративный сайт студии дизайна интерьера "Good idea".</div>
+						</a>
+						<a href="https://www.grove.co/" class="projects__item-9 animate__animated animate__zoomIn wow">
+							<div class="projects__item-text">Grove: все, что вам нужно для поддержания дома.</div>
+						</a>
+					</div>
+				</div>
+
+				<!-- <div class="projects__content">
+					Содержимое второго блока
+				</div>
+
+				<div class="projects__content">
+					Содержимое второго блока
+				</div> -->
+			</div>
+
+			<button type="magic" count="2" hide-if-last="true" libs="no-thanks" class="projects__button animate__animated animate__flipInX wow">Показать ещё</button>
+		</div>
+	</section>
+
+	<section class="price" id="price">
+		<div class="container">
+			<h2 class="title title_fz16 title__section-title animate__animated animate__fadeInUp wow">Прайс-лист</h2>
+			<div class="divider"></div>
+	
+			<div class="price__wrapper">
+				<!-- <div class="price__item">
+					<div class="price__type">Верстка Landing-page</div>
+					<div class="price__count">от 8000 руб.</div>
+					<div class="price__descr">
+						Одностраничный сайт для презентации услуг/товаров/...
+					</div>
+				</div> -->
+				<div class="price__item animate__animated animate__fadeInUp wow">
+					<div class="price__type">Landing-page</div>
+					<div class="price__count">от 50$</div>
+					<div class="price__descr">
+						Одностраничный сайт для презентации услуг/товаров/...
+					</div>
+				</div>
+				<!-- <div class="price__item">
+					<div class="price__type">Web-приложение</div>
+					<div class="price__count">от 28000 руб.</div>
+					<div class="price__descr">
+						Приложение внутри браузера для лучшего комфорта
+					</div>
+				</div> -->
+				<div class="price__item animate__animated animate__fadeInUp wow">
+					<div class="price__type">Корпоративный сайт</div>
+					<div class="price__count">от 300$</div>
+					<div class="price__descr">
+						Сайт для вашего бизнеса или компании
+					</div>
+				</div>
+				<!-- <div class="price__item">
+					<div class="price__type">Android/IOS Приложение</div>
+					<div class="price__count">от 25000 руб.</div>
+					<div class="price__descr">
+						Приложение для смартфона любой ОС
+					</div>
+				</div> -->
+				<div class="price__item animate__animated animate__fadeInUp wow">
+					<div class="price__type">Интернет-магазин</div>
+					<div class="price__count">от 350$</div>
+					<div class="price__descr">
+						Инструмент для ваших продаж в сети
+					</div>
+				</div>
+				<!-- <div class="price__item">
+					<div class="price__type">Дизайн</div>
+					<div class="price__count">Индивидуально</div>
+					<div class="price__descr">
+						Создам дизайн для вашего сайта/приложения...
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<div class="contacts__wrapper">
+				<div class="contacts__photo animate__animated animate__fadeInLeft wow">
+					<img src="img/man2.jpg" alt="photo">
+				</div>
+				<div class="contacts__descr animate__animated animate__fadeInRight wow">
+					<h2 class="title title_fz16 contacts__title">Контакты</h2>
+					<div class="title title_fz36 contacts__subtitle">Свяжитесь со мной</div>
+					<div class="divider"></div>
+
+					<div class="title title_fz14 contacts__text">
+						Любым удобным для вас способом:
+					</div>
+					<div class="contacts__social">
+						<a href="https://t.me/vladimir_kurilo" class="contacts__link">
+							<img src="img/social/telegram.svg" alt="telegram">
+						</a>
+						<a href="https://join.skype.com/invite/i6vuDv9Lix1x" class="contacts__link">
+							<img src="img/social/skype-logo.png" alt="skype">
+						</a>
+					</div>
+					<div class="title title_fz14 contacts__text">
+						Или оставьте ваши данные и я сама вам напишу:
+					</div>
+
+					<form action="#" class="contacts__form" id="record">
+						<div class="contacts__input">
+							<input required name="name" id="name" type="text">
+							<label for="name">Ваше имя</label>
+						</div>
+						<div class="contacts__input">
+							<input required name="email" id="email" type="email">
+							<label for="email">Ваша почта</label>
+						</div>
+
+						<div class="contacts__textarea">
+							<textarea name="text" id="text" type="text"></textarea>
+							<label for="text">Ваше сообщение</label>
+						</div>
+						<div class="contacts__triggers">
+							<button class="contacts__btn btn">Отправить сообщение</button>
+							<div class="contacts__policy">
+								<input required type="checkbox">
+								<span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="overlay" id="overlay">
+		<div class="modal modal_mini" id="thanks">
+			<div class="modal__close">&times</div>
+			<div class="modal__subtitle">Ваша заявка успешно принята!</div>
+			<div class="modal__descr">Ожидайте ответа в течении ближайшего времени!</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
